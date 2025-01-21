@@ -13,6 +13,9 @@ vim.schedule(function()
   vim.opt.clipboard = 'unnamedplus'
 end)
 -- vim.api.nvim_set_option("clipboard", "unnamed")
+-- enable line numbers
+vim.wo.number = true
+vim.wo.relativenumber = false
 -- enable break indent
 vim.opt.breakindent = true
 -- case-INsensitive searching UNLESS \C or 1+ cap letters in search
