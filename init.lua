@@ -60,3 +60,5 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 
 -- GO
 require("lspconfig").gopls.setup({})
+-- biome (js linter)
+require("lspconfig").biome.setup{single_file_support = true}
